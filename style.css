@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+            *{
+                margin:0;
+                padding:0;
+                border:0;
+            }
+
+            body{
+                background-color: #252525;
+            }
+
+            header{
+                padding: 32px;
+                border-bottom:1px solid #333;
+                background-color: rgba(0, 0,0,0.1);
+            }
+            header div {
+                text-align: center; /* alinhamento no meio do header */
+            } header div a {
+                color: white; /* cor */
+                font-size: 20px; /* Tamanho da fonte */
+                line-height: 30px; /* espaçamento da linha do texto */
+                margin: 0 16px; /* espaçamento entre os textos */
+                text-decoration: none; /* decoração do texto */
+                font-family: 'Ubuntu', sans-serif; /* fonte escolhida pro menu */
+            }
+        header div a:hover { /*seleção do modo quando o mouse passar por cima */
+            color: green; /* cor */
+            transition: color 700ms; /* fazer uma transição que dura 700ms */
+        }

@@ -1,22 +1,65 @@
-<!DOCTYPE html>
-    <html lang="en">
-        <link rel="stylesheet" href='style.css'>
-        <head>
-            <title>o Timaista</title>
-        </head>
-        <body>
+<!doctype html>
+<html lang="en">
 
-            <header>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timaista</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+</head>
 
-                <div class="links">
-                    <a href="https://github.com/Timaista/repositorio1">Github</a>
-                    <a href="https://www.instagram.com/timaista/">Instagram</a>
-                    <a href="https://www.youtube.com/@Filipe_o_otimista">Youtube</a>
-                </div>
-                <div id="whapper">
+<body>
+    <section class="about container">
+        <h1 class="about-title">Filipe</h1>
+        <p class="about-username"><i>@Timaista</i></p>
+        <p class="about-description" id="aboutDescription">
+        </p>
+        <br/>
+        <div class="social-links" id="socials">
+            <a href="https://www.youtube.com/@Filipe_o_otimista" class="social-link" target="_blank">
+                <img src="images/socials/youtube.png" alt="youtube" />
+            </a>
+            <a href="https://github.com/Timaista" class="social-link" target="_blank">
+                <img src="images/socials/github.png" alt="github" />
+            </a>
+            <a href="https://steamcommunity.com/id/Filipe_otimista/" class="social-link" target="_blank">
+                <img src="images/socials/steam.png" alt="steam" />
+            </a>
+            <a href="https://www.speedrun.com/users/Timaista" class="social-link" target="_blank">
+                <img src="images/socials/speedrun.png" alt="speedrun" />
+            </a>
+            <a href="https://www.twitch.tv/timaista" class="social-link" target="_blank">
+                <img src="images/socials/twitch.png" alt="twitch" />
+            </a>
+            <a href="https://www.instagram.com/timaista/" class="social-link" target="_blank">
+                <img src="images/socials/Instagram_logo_2022.svg.png" alt="instagram" />
+            </a>
+            <a href="https://www.tiktok.com/@timaista" class="social-link" target="_blank">
+                <img src="images/socials/tiktok-6338432_1280.webp" alt="tiktok" />
+            </a>
+        </div>
+    </section>
+<!--
+    <section id="projects" class="container">
+        <div class="project-list" id="featured-projects">
+            
+        </div>
+    </section> 
+-->
+    <!-- Modal for other / less-important projects. Hidden by default. -->
+    <div id="otherProjectsModal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" id="closeOtherProjects">✕</button>
+            <h2>More Projects</h2>
+            <hr />
+            <div class="project-list other-project-list">
+                <!-- Other project items will be dynamically added here -->
+            </div>
+        </div>
+    </div>
 
-                </div>
-            </header>
-    
-        </body>
-    </html>
+    <script src="app.js"></script>
+</body>
+
+</html>

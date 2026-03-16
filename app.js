@@ -160,7 +160,7 @@ function initializeProjects() {
 */
 document.addEventListener('DOMContentLoaded', () => {
   const aboutEl = document.getElementById('aboutDescription');
-  if (aboutEl) aboutEl.innerText = `Olá! Meu nome é Filipe, vulgo Timaista, tenho ${getAge('2009-12-22')} anos.\nGravo vídeo vídeos para internet, também faço speedrun de jogos. Eu edito vídeos usando DaVinci Resolve, por enquanto nenhum projeto`;
+  if (aboutEl) aboutEl.innerText = `Olá! Meu nome é Filipe, vulgo Timaista, tenho ${getAge('2009-12-22')} anos.\nGravo vídeos para a internet, também faço speedrun de jogos. Eu edito vídeos usando DaVinci Resolve, por enquanto nenhum projeto`;
   initializeProjects();
 });
 
